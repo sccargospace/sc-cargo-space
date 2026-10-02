@@ -1,0 +1,45 @@
+{
+  "manufacturer": "Anvil",
+  "name": "C8 Pisces",
+  "official": {
+    "capacity": 4,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 1,
+            "length": 2
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 1,
+            "length": 2
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "C8 Pisces",
+        "x": 15,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 15,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

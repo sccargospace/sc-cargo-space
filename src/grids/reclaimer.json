@@ -1,0 +1,157 @@
+{
+  "manufacturer": "Aegis",
+  "name": "Reclaimer",
+  "official": {
+    "capacity": 420,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 5,
+            "height": 2,
+            "length": 7,
+            "maxSize": 16
+          },
+          {
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "width": 5,
+            "height": 2,
+            "length": 7,
+            "maxSize": 16
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+            "width": 5,
+            "height": 2,
+            "length": 5,
+            "maxSize": 16
+          },
+          {
+            "x": 7,
+            "y": 0,
+            "z": 11,
+            "width": 5,
+            "height": 2,
+            "length": 5,
+            "maxSize": 16
+          }
+        ]
+      },
+      {
+        "x": 15,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 3,
+            "height": 3,
+            "length": 2,
+            "maxSize": 16
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "width": 3,
+            "height": 3,
+            "length": 3,
+            "maxSize": 16
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 9,
+            "width": 3,
+            "height": 3,
+            "length": 3,
+            "maxSize": 16
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "width": 3,
+            "height": 3,
+            "length": 2,
+            "maxSize": 16
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "width": 3,
+            "height": 3,
+            "length": 2,
+            "maxSize": 16
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "width": 3,
+            "height": 3,
+            "length": 3,
+            "maxSize": 16
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "z": 9,
+            "width": 3,
+            "height": 3,
+            "length": 3,
+            "maxSize": 16
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "z": 14,
+            "width": 3,
+            "height": 3,
+            "length": 2,
+            "maxSize": 16
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Reclaimer",
+        "x": 135,
+        "z": -20,
+        "fontSize": 7
+      },
+      {
+        "value": "${scu}",
+        "x": 135,
+        "z": -27,
+        "fontSize": 5
+      },
+      {
+        "value": "Salvage Processing",
+        "x": 121,
+        "z": 21,
+        "rotation": 270,
+        "fontSize": 4
+      },
+      {
+        "value": "Cargo Hold",
+        "x": 231,
+        "z": 11,
+        "rotation": 270,
+        "fontSize": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Argo",
+  "name": "MPUV-T",
+  "official": {
+    "capacity": 16,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 4
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "MPUV-T",
+        "x": 10,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 10,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

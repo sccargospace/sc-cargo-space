@@ -1,0 +1,37 @@
+{
+  "manufacturer": "RSI",
+  "name": "Constellation Andromeda",
+  "official": {
+    "capacity": 96,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 3,
+            "length": 8
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Constellation Andromeda",
+        "x": 20,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 20,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

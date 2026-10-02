@@ -1,0 +1,38 @@
+{
+  "manufacturer": "Argo",
+  "name": "Raft",
+  "official": {
+    "capacity": 192,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 8,
+            "height": 2,
+            "length": 12,
+            "preferHorizontal": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Raft",
+        "x": 40,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 40,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

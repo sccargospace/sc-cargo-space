@@ -1,0 +1,45 @@
+{
+  "manufacturer": "RSI",
+  "name": "Polaris",
+  "official": {
+    "capacity": 576,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 6,
+            "height": 4,
+            "length": 12
+          },
+          {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            "width": 6,
+            "height": 4,
+            "length": 12
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Polaris",
+        "x": 70,
+        "z": -22,
+        "fontSize": 6
+      },
+      {
+        "value": "${scu}",
+        "x": 70,
+        "z": -29,
+        "fontSize": 5
+      }
+    ]
+  }
+}

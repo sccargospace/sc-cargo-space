@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Drake",
+  "name": "Mule",
+  "official": {
+    "capacity": 1,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 1,
+            "length": 1
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Mule",
+        "x": 5,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 5,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

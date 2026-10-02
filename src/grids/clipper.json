@@ -1,0 +1,38 @@
+{
+  "manufacturer": "Drake",
+  "name": "Clipper",
+  "official": {
+    "capacity": 12,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 3,
+            "maxSize": 2
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Clipper",
+        "x": 10,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 10,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

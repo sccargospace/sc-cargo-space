@@ -1,0 +1,91 @@
+{
+  "manufacturer": "Crusader",
+  "name": "C1 Spirit",
+  "labels": [
+    {
+      "value": "${scu}",
+      "x": 30,
+      "z": -27,
+      "fontSize": 5
+    }
+  ],
+  "official": {
+    "capacity": 64,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "C1 Spirit",
+        "x": 30,
+        "z": -20,
+        "fontSize": 5
+      }
+    ]
+  },
+  "unofficial": {
+    "capacity": 96,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8,
+            "unsecured": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "C1 Spirit (Unofficial)",
+        "x": 30,
+        "z": -20,
+        "fontSize": 5
+      }
+    ]
+  }
+}

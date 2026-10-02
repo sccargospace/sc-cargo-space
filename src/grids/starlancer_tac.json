@@ -1,0 +1,98 @@
+{
+  "manufacturer": "MISC",
+  "name": "Starlancer TAC",
+  "official": {
+    "capacity": 96,
+    "groups": [
+      {
+        "name": "Aft Cargo Bay",
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "name": "Port Side",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 3,
+            "length": 8
+          },
+          {
+            "name": "Starboard Side",
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 3,
+            "length": 8
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Starlancer TAC",
+        "x": 45,
+        "z": -20,
+        "fontSize": 5
+      }
+    ]
+  },
+  "unofficial": {
+    "capacity": 246,
+    "groups": [
+      {
+        "name": "Aft Cargo Bay",
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "name": "Port Side",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "width": 2,
+            "height": 3,
+            "length": 8
+          },
+          {
+            "name": "Starboard Side",
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            "width": 2,
+            "height": 3,
+            "length": 8
+          },
+          {
+            "name": "Vehicle Bay (unsecured)",
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "width": 5,
+            "height": 3,
+            "length": 10,
+            "unsecured": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Starlancer TAC (Unofficial)",
+        "x": 45,
+        "z": -20,
+        "fontSize": 5
+      }
+    ]
+  },
+  "labels": [
+    {
+      "value": "${scu}",
+      "x": 45,
+      "z": -27,
+      "fontSize": 5
+    }
+  ]
+}

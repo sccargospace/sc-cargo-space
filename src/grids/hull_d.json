@@ -1,0 +1,140 @@
+{
+  "manufacturer": "MISC",
+  "name": "Hull-D [Concept]",
+  "official": {
+    "capacity": 6912,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 14,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 28,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 42,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          }
+        ],
+        "minSize": 32
+      },
+      {
+        "x": 0,
+        "z": 11,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 14,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 28,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 42,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          }
+        ],
+        "minSize": 32
+      },
+      {
+        "x": 0,
+        "z": 22,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 14,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 28,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 42,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 6,
+            "length": 8
+          }
+        ],
+        "minSize": 32
+      }
+    ],
+    "labels": [
+      {
+        "value": "Hull-D [Concept]",
+        "x": 270,
+        "z": -25,
+        "fontSize": 10
+      },
+      {
+        "value": "${scu}",
+        "x": 270,
+        "z": -32,
+        "fontSize": 5
+      }
+    ]
+  }
+}

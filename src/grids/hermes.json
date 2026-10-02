@@ -1,0 +1,94 @@
+{
+  "manufacturer": "RSI",
+  "name": "Hermes",
+  "official": {
+    "capacity": 288,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 2,
+            "length": 18
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 2,
+            "length": 18
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Hermes",
+        "x": 50,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 50,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  },
+  "unofficial": {
+    "capacity": 528,
+    "groups": [
+      {
+        "x": 0,
+        "z": 8,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 12,
+            "height": 2,
+            "length": 18,
+            "unsecured": true
+          }
+        ]
+      },
+      {
+        "x": 3,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 6,
+            "height": 2,
+            "length": 8,
+            "unsecured": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Hermes",
+        "x": 60,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 60,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

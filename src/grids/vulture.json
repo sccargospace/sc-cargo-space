@@ -1,0 +1,120 @@
+{
+  "manufacturer": "Drake",
+  "name": "Vulture",
+  "official": {
+    "capacity": 13,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 1,
+            "length": 1,
+            "maxSize": 1
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "width": 2,
+            "height": 2,
+            "length": 3,
+            "maxSize": 1
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Vulture",
+        "x": 10,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 10,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  },
+  "unofficial": {
+    "capacity": 26,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "width": 1,
+            "height": 1,
+            "length": 1,
+            "maxSize": 1
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "width": 2,
+            "height": 2,
+            "length": 3,
+            "maxSize": 1
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 5,
+            "maxSize": 1,
+            "unsecured": true
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "width": 1,
+            "height": 2,
+            "length": 1,
+            "maxSize": 1,
+            "unsecured": true
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "width": 1,
+            "height": 1,
+            "length": 1,
+            "maxSize": 1,
+            "unsecured": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Vulture (Unofficial)",
+        "x": 15,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 15,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

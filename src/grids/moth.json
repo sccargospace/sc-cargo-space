@@ -1,0 +1,124 @@
+{
+  "manufacturer": "Argo",
+  "name": "MOTH",
+  "official": {
+    "capacity": 224,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 6,
+            "minSize": 8,
+            "maxSize": 8
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 6,
+            "minSize": 8,
+            "maxSize": 8
+          }
+        ]
+      },
+      {
+        "x": 3,
+        "z": 9,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 2,
+            "length": 4,
+            "maxSize": 16,
+            "preferHorizontal": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "MOTH",
+        "x": 50,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 50,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  },
+  "unofficial": {
+    "capacity": 224,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 6,
+            "maxSize": 24
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 6,
+            "maxSize": 24
+          }
+        ]
+      },
+      {
+        "x": 3,
+        "z": 9,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 2,
+            "length": 4,
+            "maxSize": 16,
+            "preferHorizontal": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "MOTH",
+        "x": 50,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 50,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

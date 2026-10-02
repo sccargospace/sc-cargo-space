@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Anvil",
+  "name": "Valkyrie",
+  "official": {
+    "capacity": 90,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 5,
+            "height": 3,
+            "length": 6
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Valkyrie",
+        "x": 25,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 25,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

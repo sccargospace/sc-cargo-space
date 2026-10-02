@@ -1,0 +1,71 @@
+{
+  "manufacturer": "RSI",
+  "name": "Aurora (Mk II) [Cargo]",
+  "alternativeNames": [
+    "Aurora Mk II [Cargo]",
+    "Aurora Mk II Cargo"
+  ],
+  "official": {
+    "capacity": 8,
+    "groups": [
+      {
+        "x": 1,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 1,
+            "length": 3
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 1,
+            "length": 3
+          }
+        ]
+      },
+      {
+        "x": 0,
+        "z": 6,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 1,
+            "length": 1
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 1,
+            "length": 1
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Aurora (Mk II) [Cargo]",
+        "x": 20,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 20,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

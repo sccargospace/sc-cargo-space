@@ -1,0 +1,316 @@
+{
+  "manufacturer": "Aegis",
+  "name": "Idris-M",
+  "official": {
+    "capacity": 1326,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 11,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 19,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 24,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 32,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 37,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 47,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 16,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 16,
+            "y": 0,
+            "z": 6,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 16,
+            "y": 0,
+            "z": 11,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 16,
+            "y": 0,
+            "z": 19,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 16,
+            "y": 0,
+            "z": 24,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 16,
+            "y": 0,
+            "z": 32,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 16,
+            "y": 0,
+            "z": 37,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 16,
+            "y": 0,
+            "z": 47,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          }
+        ]
+      },
+      {
+        "x": 23,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "width": 18,
+            "height": 2,
+            "length": 4,
+            "maxSize": 16
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "width": 14,
+            "height": 2,
+            "length": 5,
+            "maxSize": 16
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 1,
+            "maxSize": 16
+          },
+          {
+            "x": 6.5,
+            "y": 0,
+            "z": 0,
+            "width": 5,
+            "height": 2,
+            "length": 1,
+            "maxSize": 16
+          },
+          {
+            "x": 14,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 1,
+            "maxSize": 16
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Idris-M",
+        "x": 215,
+        "z": -25,
+        "fontSize": 10
+      },
+      {
+        "value": "${scu}",
+        "x": 215,
+        "z": -32,
+        "fontSize": 5
+      },
+      {
+        "value": "Hangar",
+        "x": 100,
+        "z": -10,
+        "fontSize": 5
+      },
+      {
+        "value": "Main Cargo Room",
+        "x": 315,
+        "z": -10,
+        "fontSize": 5
+      },
+      {
+        "value": "G1",
+        "x": -5,
+        "z": 472,
+        "fontSize": 4
+      },
+      {
+        "value": "G5",
+        "x": -5,
+        "z": 322,
+        "fontSize": 4
+      },
+      {
+        "value": "G7",
+        "x": -5,
+        "z": 372,
+        "fontSize": 4
+      },
+      {
+        "value": "G9",
+        "x": -5,
+        "z": 242,
+        "fontSize": 4
+      },
+      {
+        "value": "G11",
+        "x": -5,
+        "z": 192,
+        "fontSize": 4
+      },
+      {
+        "value": "G15",
+        "x": -5,
+        "z": 112,
+        "fontSize": 4
+      },
+      {
+        "value": "G17",
+        "x": -5,
+        "z": 62,
+        "fontSize": 4
+      },
+      {
+        "value": "G19",
+        "x": -5,
+        "z": 2,
+        "fontSize": 4
+      },
+      {
+        "value": "G2",
+        "x": 205,
+        "z": 472,
+        "fontSize": 4
+      },
+      {
+        "value": "G6",
+        "x": 205,
+        "z": 322,
+        "fontSize": 4
+      },
+      {
+        "value": "G8",
+        "x": 205,
+        "z": 372,
+        "fontSize": 4
+      },
+      {
+        "value": "G10",
+        "x": 205,
+        "z": 242,
+        "fontSize": 4
+      },
+      {
+        "value": "G12",
+        "x": 205,
+        "z": 192,
+        "fontSize": 4
+      },
+      {
+        "value": "G16",
+        "x": 205,
+        "z": 112,
+        "fontSize": 4
+      },
+      {
+        "value": "G18",
+        "x": 205,
+        "z": 62,
+        "fontSize": 4
+      },
+      {
+        "value": "G20",
+        "x": 205,
+        "z": 2,
+        "fontSize": 4
+      }
+    ]
+  }
+}

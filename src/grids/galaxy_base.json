@@ -1,0 +1,51 @@
+{
+  "manufacturer": "RSI",
+  "name": "Galaxy [Base Concept]",
+  "official": {
+    "capacity": 64,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 12,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Galaxy [Base Concept]",
+        "x": 70,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 70,
+        "z": -27,
+        "fontSize": 5
+      },
+      {
+        "value": "Hangar",
+        "x": 70,
+        "z": -10,
+        "fontSize": 4
+      }
+    ]
+  }
+}

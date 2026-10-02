@@ -1,0 +1,222 @@
+{
+  "manufacturer": "MISC",
+  "name": "Fortune",
+  "official": {
+    "capacity": 16,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 3,
+            "maxSize": 1
+          }
+        ]
+      },
+      {
+        "x": 5,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 3,
+            "maxSize": 1
+          }
+        ]
+      },
+      {
+        "x": 2,
+        "z": 6,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 1,
+            "length": 2,
+            "maxSize": 1
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Fortune",
+        "x": 30,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 30,
+        "z": -27,
+        "fontSize": 5
+      },
+      {
+        "value": "Starboard (Exterior)",
+        "x": 55,
+        "z": -6,
+        "fontSize": 3
+      },
+      {
+        "value": "Port (Exterior)",
+        "x": 5,
+        "z": -6,
+        "fontSize": 3
+      },
+      {
+        "value": "Aft (Interior)",
+        "x": 30,
+        "z": 53,
+        "fontSize": 3
+      }
+    ]
+  },
+  "unofficial": {
+    "capacity": 30,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 3,
+            "maxSize": 1
+          }
+        ]
+      },
+      {
+        "x": 8,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 3,
+            "maxSize": 1
+          }
+        ]
+      },
+      {
+        "x": 3,
+        "z": 14,
+        "grids": [
+          {
+            "x": 0.5,
+            "y": 0,
+            "z": 1,
+            "width": 2,
+            "height": 1,
+            "length": 2,
+            "maxSize": 1
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 3,
+            "height": 1,
+            "length": 1,
+            "maxSize": 1,
+            "unsecured": true
+          }
+        ]
+      },
+      {
+        "x": 4,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 3,
+            "maxSize": 1,
+            "unsecured": true
+          }
+        ]
+      },
+      {
+        "x": 4,
+        "z": 6,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 1,
+            "length": 5,
+            "maxSize": 1,
+            "unsecured": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Fortune (Unofficial)",
+        "x": 45,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 45,
+        "z": -27,
+        "fontSize": 5
+      },
+      {
+        "value": "Starboard (Exterior)",
+        "x": 85,
+        "z": -6,
+        "fontSize": 3
+      },
+      {
+        "value": "Port (Exterior)",
+        "x": 5,
+        "z": -6,
+        "fontSize": 3
+      },
+      {
+        "value": "Aft (Interior)",
+        "x": 45,
+        "z": 135,
+        "fontSize": 3
+      },
+      {
+        "value": "Habitation (Interior)",
+        "x": 45,
+        "z": -6,
+        "fontSize": 3
+      },
+      {
+        "value": "Components (Interior)",
+        "x": 45,
+        "z": 50,
+        "fontSize": 3
+      }
+    ]
+  }
+}

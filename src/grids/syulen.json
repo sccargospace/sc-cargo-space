@@ -1,0 +1,38 @@
+{
+  "manufacturer": "Gatac",
+  "name": "Syulen",
+  "official": {
+    "capacity": 6,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 3,
+            "height": 1,
+            "length": 2,
+            "maxSize": 1
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Syulen",
+        "x": 15,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 15,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

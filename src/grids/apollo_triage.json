@@ -1,0 +1,47 @@
+{
+  "manufacturer": "RSI",
+  "name": "Apollo Triage",
+  "official": {
+    "capacity": 32,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 4,
+            "maxSize": 2
+          },
+          {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 4,
+            "maxSize": 2
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Apollo Triage",
+        "x": 30,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 30,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

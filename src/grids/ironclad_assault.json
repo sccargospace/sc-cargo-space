@@ -1,0 +1,48 @@
+{
+  "manufacturer": "Drake",
+  "name": "Ironclad Assault",
+  "alternativeNames": [
+    "Ironclad Assault [Concept]"
+  ],
+  "official": {
+    "capacity": 1440,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 6,
+            "height": 6,
+            "length": 20
+          },
+          {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            "width": 6,
+            "height": 6,
+            "length": 20
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Ironclad Assault",
+        "x": 70,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 70,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

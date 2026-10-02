@@ -1,0 +1,79 @@
+{
+  "manufacturer": "RSI",
+  "name": "Galaxy [Cargo Concept]",
+  "official": {
+    "capacity": 576,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 12,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          }
+        ]
+      },
+      {
+        "x": 0,
+        "z": 12,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 16
+          },
+          {
+            "x": 10,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 16
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Galaxy [Cargo Concept]",
+        "x": 70,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 70,
+        "z": -27,
+        "fontSize": 5
+      },
+      {
+        "value": "Hangar",
+        "x": 70,
+        "z": -10,
+        "fontSize": 4
+      },
+      {
+        "value": "Cargo Bay",
+        "x": 70,
+        "z": 110,
+        "fontSize": 4
+      }
+    ]
+  }
+}

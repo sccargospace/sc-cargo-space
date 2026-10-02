@@ -1,0 +1,103 @@
+{
+  "manufacturer": "Origin",
+  "name": "890 Jump",
+  "official": {
+    "capacity": 388,
+    "groups": [
+      {
+        "x": 2,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 6,
+            "height": 4,
+            "length": 12
+          }
+        ]
+      },
+      {
+        "x": 0,
+        "z": 15,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 3,
+            "height": 2,
+            "length": 5
+          },
+          {
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "width": 3,
+            "height": 2,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "x": 2,
+        "z": 23,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 5
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 5
+          }
+        ]
+      },
+      {
+        "x": 3,
+        "z": 31,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 5
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 5
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "890 Jump",
+        "x": 50,
+        "z": -20,
+        "fontSize": 7
+      },
+      {
+        "value": "${scu}",
+        "x": 50,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

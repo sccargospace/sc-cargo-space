@@ -1,0 +1,67 @@
+{
+  "manufacturer": "Aegis",
+  "name": "Retaliator",
+  "official": {
+    "capacity": 74,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 3,
+            "height": 2,
+            "length": 6
+          }
+        ]
+      },
+      {
+        "x": 0,
+        "z": 9,
+        "grids": [
+          {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "width": 2,
+            "height": 2,
+            "length": 6
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 1
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "width": 1,
+            "height": 2,
+            "length": 5
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Retaliator",
+        "x": 15,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 15,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

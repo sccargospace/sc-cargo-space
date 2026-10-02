@@ -1,0 +1,37 @@
+{
+  "manufacturer": "RSI",
+  "name": "Perseus",
+  "official": {
+    "capacity": 96,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 8,
+            "height": 2,
+            "length": 6
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Perseus",
+        "x": 40,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 40,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

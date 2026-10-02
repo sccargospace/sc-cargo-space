@@ -1,0 +1,45 @@
+{
+  "manufacturer": "Origin",
+  "name": "135c",
+  "official": {
+    "capacity": 6,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 1,
+            "length": 4
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "width": 1,
+            "height": 1,
+            "length": 2
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "135c",
+        "x": 5,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 5,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

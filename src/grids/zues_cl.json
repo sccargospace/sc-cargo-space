@@ -1,0 +1,130 @@
+{
+  "manufacturer": "RSI",
+  "name": "Zeus Mk II CL",
+  "official": {
+    "capacity": 128,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "width": 5,
+            "height": 3,
+            "length": 8
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "width": 1,
+            "height": 2,
+            "length": 2
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "width": 1,
+            "height": 2,
+            "length": 2
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Zeus Mk II CL",
+        "x": 35,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 35,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  },
+  "unofficial": {
+    "capacity": 152,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 3,
+            "length": 8
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            "width": 1,
+            "height": 2,
+            "length": 2
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "width": 2,
+            "height": 2,
+            "length": 8,
+            "unsecured": true
+          },
+          {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "width": 1,
+            "height": 1,
+            "length": 8,
+            "unsecured": true
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 2,
+            "unsecured": true
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "z": 4,
+            "width": 1,
+            "height": 2,
+            "length": 4,
+            "unsecured": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Zeus Mk II CL",
+        "x": 35,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 35,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Origin",
+  "name": "325a",
+  "official": {
+    "capacity": 4,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 1,
+            "length": 2
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "325a",
+        "x": 10,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 10,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

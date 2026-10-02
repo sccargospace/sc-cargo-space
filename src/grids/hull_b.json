@@ -1,0 +1,166 @@
+{
+  "manufacturer": "MISC",
+  "name": "Hull-B",
+  "alternativeNames": [
+    "Hull-B [Concept]"
+  ],
+  "official": {
+    "capacity": 512,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 12,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 14,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 18,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 20,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          }
+        ]
+      },
+      {
+        "x": 0,
+        "z": 11,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 12,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 14,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 18,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          },
+          {
+            "x": 20,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 8
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Hull-B",
+        "x": 110,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 110,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

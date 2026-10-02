@@ -1,0 +1,51 @@
+{
+  "manufacturer": "Banu",
+  "name": "Merchantman [Concept]",
+  "official": {
+    "capacity": 2880,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 6,
+            "height": 10,
+            "length": 24
+          }
+        ]
+      },
+      {
+        "x": 9,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 6,
+            "height": 10,
+            "length": 24
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Merchantman [Concept]",
+        "x": 75,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 75,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

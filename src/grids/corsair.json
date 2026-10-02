@@ -1,0 +1,80 @@
+{
+  "manufacturer": "Drake",
+  "name": "Corsair",
+  "official": {
+    "capacity": 72,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 3,
+            "length": 6
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Corsair",
+        "x": 20,
+        "z": -18,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 20,
+        "z": -25,
+        "fontSize": 5
+      }
+    ]
+  },
+  "unofficial": {
+    "capacity": 204,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "width": 6,
+            "height": 3,
+            "length": 10,
+            "unsecured": true
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 6,
+            "height": 2,
+            "length": 2,
+            "unsecured": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Corsair",
+        "x": 30,
+        "z": -18,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 30,
+        "z": -25,
+        "fontSize": 5
+      }
+    ]
+  }
+}

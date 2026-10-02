@@ -1,0 +1,88 @@
+{
+  "manufacturer": "Drake",
+  "name": "Cutter",
+  "official": {
+    "capacity": 4,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 2
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Cutter",
+        "x": 5,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 5,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  },
+  "unofficial": {
+    "capacity": 12,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "width": 1,
+            "height": 2,
+            "length": 2
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 1,
+            "unsecured": true
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 3,
+            "unsecured": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Cutter",
+        "x": 10,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 10,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "manufacturer": "Anvil",
+  "name": "Carrack",
+  "official": {
+    "capacity": 456,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 2,
+            "length": 3,
+            "maxSize": 8
+          },
+          {
+            "x": 10,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          }
+        ]
+      },
+      {
+        "x": 0,
+        "z": 7,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 2,
+            "length": 3,
+            "maxSize": 8
+          },
+          {
+            "x": 10,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          }
+        ]
+      },
+      {
+        "x": 0,
+        "z": 14,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 2,
+            "length": 3,
+            "maxSize": 8
+          },
+          {
+            "x": 10,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 4,
+            "length": 4
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Carrack",
+        "x": 70,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 70,
+        "z": -27,
+        "fontSize": 5
+      },
+      {
+        "value": "Pod 1",
+        "x": 70,
+        "z": -10,
+        "fontSize": 4
+      },
+      {
+        "value": "Pod 2",
+        "x": 70,
+        "z": 60,
+        "fontSize": 4
+      },
+      {
+        "value": "Pod 3",
+        "x": 70,
+        "z": 130,
+        "fontSize": 4
+      }
+    ]
+  }
+}

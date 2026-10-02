@@ -1,0 +1,179 @@
+{
+  "manufacturer": "MISC",
+  "name": "Hull-E [Concept]",
+  "official": {
+    "capacity": 12288,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 18,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 36,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 54,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          }
+        ],
+        "minSize": 32
+      },
+      {
+        "x": 0,
+        "z": 11,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 18,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 36,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 54,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          }
+        ],
+        "minSize": 32
+      },
+      {
+        "x": 0,
+        "z": 22,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 18,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 36,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 54,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          }
+        ],
+        "minSize": 32
+      },
+      {
+        "x": 0,
+        "z": 33,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 18,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 36,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          },
+          {
+            "x": 54,
+            "y": 0,
+            "z": 0,
+            "width": 16,
+            "height": 6,
+            "length": 8
+          }
+        ],
+        "minSize": 32
+      }
+    ],
+    "labels": [
+      {
+        "value": "Hull-E [Concept]",
+        "x": 350,
+        "z": -25,
+        "fontSize": 10
+      },
+      {
+        "value": "${scu}",
+        "x": 350,
+        "z": -32,
+        "fontSize": 5
+      }
+    ]
+  }
+}

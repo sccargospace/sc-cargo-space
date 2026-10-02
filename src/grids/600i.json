@@ -1,0 +1,91 @@
+{
+  "manufacturer": "Origin",
+  "name": "600i Explorer",
+  "official": {
+    "capacity": 44,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 4
+          },
+          {
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 4
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "z": 4,
+            "width": 1,
+            "height": 2,
+            "length": 1
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "z": 4,
+            "width": 1,
+            "height": 2,
+            "length": 1
+          }
+        ]
+      },
+      {
+        "x": 0,
+        "z": 8,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "width": 1,
+            "height": 3,
+            "length": 2
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "width": 4,
+            "height": 3,
+            "length": 1
+          },
+          {
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            "width": 1,
+            "height": 3,
+            "length": 2
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "600i Explorer",
+        "x": 40,
+        "z": -20,
+        "fontSize": 6
+      },
+      {
+        "value": "${scu}",
+        "x": 40,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "manufacturer": "Drake",
+  "name": "Ironclad",
+  "alternativeNames": [
+    "Ironclad [Concept]"
+  ],
+  "official": {
+    "capacity": 2216,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 2
+          },
+          {
+            "x": 12,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 2
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "width": 6,
+            "height": 6,
+            "length": 20
+          },
+          {
+            "x": 8,
+            "y": 0,
+            "z": 3,
+            "width": 6,
+            "height": 6,
+            "length": 20
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 24,
+            "width": 6,
+            "height": 6,
+            "length": 10
+          },
+          {
+            "x": 8,
+            "y": 0,
+            "z": 24,
+            "width": 6,
+            "height": 6,
+            "length": 10
+          }
+        ]
+      },
+      {
+        "x": 17,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 2
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 2
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 2
+          },
+          {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "width": 2,
+            "height": 2,
+            "length": 2
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "z": 3,
+            "width": 2,
+            "height": 2,
+            "length": 2
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Ironclad",
+        "x": 130,
+        "z": -23,
+        "fontSize": 7
+      },
+      {
+        "value": "${scu}",
+        "x": 130,
+        "z": -31,
+        "fontSize": 7
+      },
+      {
+        "value": "Main Cargo Bay",
+        "x": 70,
+        "z": -7.5,
+        "fontSize": 3
+      },
+      {
+        "value": "Secured Cargo Bay",
+        "x": 210,
+        "z": -7.5,
+        "fontSize": 3
+      },
+      {
+        "value": "Elevator",
+        "x": 10,
+        "z": -4.5,
+        "fontSize": 2
+      },
+      {
+        "value": "Elevator",
+        "x": 130,
+        "z": -4.5,
+        "fontSize": 2
+      }
+    ]
+  }
+}

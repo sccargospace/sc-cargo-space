@@ -1,0 +1,178 @@
+{
+  "manufacturer": "MISC",
+  "name": "Starlancer MAX",
+  "official": {
+    "capacity": 224,
+    "groups": [
+      {
+        "name": "Aft Cargo Bay",
+        "x": 0,
+        "z": 19,
+        "grids": [
+          {
+            "name": "Port Side",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 3,
+            "length": 8
+          },
+          {
+            "name": "Starboard Side",
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 3,
+            "length": 8
+          }
+        ]
+      },
+      {
+        "name": "Mid Cargo Bay",
+        "x": 2,
+        "z": 0,
+        "grids": [
+          {
+            "name": "Port Side",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 16
+          },
+          {
+            "name": "Starboard Side",
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 16
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Starlancer MAX",
+        "x": 45,
+        "z": -20,
+        "fontSize": 5
+      }
+    ]
+  },
+  "unofficial": {
+    "capacity": 470,
+    "groups": [
+      {
+        "name": "Aft Cargo Bay",
+        "x": 0,
+        "z": 19,
+        "grids": [
+          {
+            "name": "Port Side",
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "width": 2,
+            "height": 3,
+            "length": 8
+          },
+          {
+            "name": "Starboard Side",
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            "width": 2,
+            "height": 3,
+            "length": 8
+          },
+          {
+            "name": "Vehicle Bay (unsecured)",
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "width": 5,
+            "height": 3,
+            "length": 10,
+            "unsecured": true
+          }
+        ]
+      },
+      {
+        "name": "Mid Cargo Bay",
+        "x": 2,
+        "z": 0,
+        "grids": [
+          {
+            "name": "Port Side",
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 16
+          },
+          {
+            "name": "Starboard Side",
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 2,
+            "length": 16
+          },
+          {
+            "name": "Port Side (unsecured)",
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "width": 2,
+            "height": 1,
+            "length": 16,
+            "unsecured": true
+          },
+          {
+            "name": "Starboard Side (unsecured)",
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            "width": 2,
+            "height": 1,
+            "length": 16,
+            "unsecured": true
+          },
+          {
+            "name": "Aisle (unsecured)",
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 16,
+            "unsecured": true
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Starlancer MAX (Unofficial)",
+        "x": 45,
+        "z": -20,
+        "fontSize": 5
+      }
+    ]
+  },
+  "labels": [
+    {
+      "value": "${scu}",
+      "x": 45,
+      "z": -27,
+      "fontSize": 5
+    }
+  ]
+}

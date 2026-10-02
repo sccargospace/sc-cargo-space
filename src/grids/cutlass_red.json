@@ -1,0 +1,45 @@
+{
+  "manufacturer": "Drake",
+  "name": "Cutlass Red",
+  "official": {
+    "capacity": 12,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 3
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "width": 1,
+            "height": 2,
+            "length": 3
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Cutlass Red",
+        "x": 20,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 20,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

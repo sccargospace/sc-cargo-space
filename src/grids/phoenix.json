@@ -1,0 +1,37 @@
+{
+  "manufacturer": "RSI",
+  "name": "Constellation Phoenix",
+  "official": {
+    "capacity": 80,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 5,
+            "height": 2,
+            "length": 8
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Constellation Phoenix",
+        "x": 25,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 25,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}

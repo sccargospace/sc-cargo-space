@@ -1,0 +1,37 @@
+{
+  "manufacturer": "Aegis",
+  "name": "Avenger Titan",
+  "official": {
+    "capacity": 8,
+    "groups": [
+      {
+        "x": 0,
+        "z": 0,
+        "grids": [
+          {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "width": 2,
+            "height": 1,
+            "length": 4
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "value": "Avenger Titan",
+        "x": 10,
+        "z": -20,
+        "fontSize": 5
+      },
+      {
+        "value": "${scu}",
+        "x": 10,
+        "z": -27,
+        "fontSize": 5
+      }
+    ]
+  }
+}
