@@ -2,6 +2,10 @@
 
 Static website for viewing and comparing sc cargo grids.
 
+## Prerequisites
+
+Install Node.js and npm before running the commands below. npm is included with the Node.js installer.
+
 ## Install dependencies
 
 ```sh
