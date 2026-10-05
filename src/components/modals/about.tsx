@@ -8,6 +8,7 @@ import {
 import {
   OpenInNew as OpenInNewIcon,
   Reddit as RedditIcon,
+  GitHub as GitHubIcon,
   RocketLaunch as RocketIcon,
   Forum as ForumIcon,
   PrivacyTip as PrivacyTipIcon
@@ -142,6 +143,19 @@ export const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
                       sx={{ minWidth: 140 }}
                     >
                       Referral Code: STAR-CB9X-6C5M
+                    </Button>
+                  </Grid2>
+                  <Grid2>
+                    <Button
+                      variant="outlined"
+                      href="https://github.com/sccargospace/sc-cargo-space"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      startIcon={<GitHubIcon />}
+                      endIcon={<OpenInNewIcon />}
+                      sx={{ minWidth: 140 }}
+                    >
+                      GitHub
                     </Button>
                   </Grid2>
                 </Grid2>
