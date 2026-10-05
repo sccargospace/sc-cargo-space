@@ -33,14 +33,3 @@ Create a zip of the artifacts:
 ```sh
 npm run dist
 ```
-
-
-## TODO's
-
-
-### Ships
-
-* Railen - 320
-* Odyssey - 252
-* Kraken - 3792
-* Kraken Priv - 768
