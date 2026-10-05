@@ -1,4 +1,4 @@
-# sc-cargo-vis
+# sc-cargo-space
 
 Static website for viewing and comparing sc cargo grids.
 
