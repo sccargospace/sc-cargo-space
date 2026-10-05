@@ -71,7 +71,8 @@
             "z": 0,
             "width": 2,
             "height": 2,
-            "length": 2
+            "length": 2,
+            "maxSize": 2
           },
           {
             "x": 3,
@@ -79,7 +80,8 @@
             "z": 0,
             "width": 2,
             "height": 2,
-            "length": 2
+            "length": 2,
+            "maxSize": 2
           },
           {
             "x": 6,
@@ -87,7 +89,8 @@
             "z": 0,
             "width": 2,
             "height": 2,
-            "length": 2
+            "length": 2,
+            "maxSize": 2
           },
           {
             "x": 0,
@@ -95,7 +98,8 @@
             "z": 3,
             "width": 2,
             "height": 2,
-            "length": 2
+            "length": 2,
+            "maxSize": 2
           },
           {
             "x": 6,
@@ -103,7 +107,8 @@
             "z": 3,
             "width": 2,
             "height": 2,
-            "length": 2
+            "length": 2,
+            "maxSize": 2
           }
         ]
       }
