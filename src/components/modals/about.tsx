@@ -148,7 +148,7 @@ export const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
                   <Grid2>
                     <Button
                       variant="outlined"
-                      href="https://github.com/sccargospace/sc-cargo-space"
+                      href="https://github.com/sccargospace/sc-cargo.space"
                       target="_blank"
                       rel="noopener noreferrer"
                       startIcon={<GitHubIcon />}
