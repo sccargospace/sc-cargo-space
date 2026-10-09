@@ -20,12 +20,12 @@ import { MobileWidth } from "@/lib/util";
 import { VehicleSchemas, VehicleSchemaProps } from "@/lib/vehicle-schema";
 import { GetVehicleFromCache, SelectedVehicleProps } from "@/lib/selected-vehicle";
 import { ParseVehiclesFromRouter, NormalizedVehicleRouterName, UpdateRouterUrl } from "@/lib/router-utils";
-import { VehiclePicker } from "@/features/vehicle-picker/vehicle-picker";
-import { VehicleTree } from "@/features/vehicle-tree/vehicle-tree";
+import { VehiclePicker } from "@/components/vehicle-picker/vehicle-picker";
+import { VehicleTree } from "@/components/vehicle-tree/vehicle-tree";
 import { CommunityLogo } from "@/components/icons/community-logo";
 import { useCanvas } from "@/lib/canvas-provider";
 import { VehicleProps, VehicleGetContainerCount } from "@/lib/vehicle";
-import { VehicleGridLayoutType } from "@/features/vehicle-tree/vehicle-actions";
+import { VehicleGridLayoutType } from "@/components/vehicle-tree/vehicle-actions";
 
 /**
  * Width of the navigation drawer when fully expanded.

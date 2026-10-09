@@ -5,8 +5,8 @@ import {
   SelectedVehicleProps
 } from "@/lib/selected-vehicle";
 import { useSettings } from "@/lib/settings-provider";
-import { VehicleNode } from "@/features/vehicle-tree/vehicle-node";
-import { VehicleTreeActions } from "@/features/vehicle-tree/vehicle-actions";
+import { VehicleNode } from "@/components/vehicle-tree/vehicle-node";
+import { VehicleTreeActions } from "@/components/vehicle-tree/vehicle-actions";
 
 /**
  * Properties for the VehicleTree component.

@@ -17,7 +17,7 @@ import {
   SelectedVehicleGetSchemaLayout
 } from "@/lib/selected-vehicle";
 import { ManufacturerIcon } from "@/components/icons/manufacturer-icon";
-import { VehicleTreeActions, VehicleGridLayoutType } from "@/features/vehicle-tree/vehicle-actions";
+import { VehicleTreeActions, VehicleGridLayoutType } from "@/components/vehicle-tree/vehicle-actions";
 
 /**
  * Properties for a vehicle node in the tree.
