@@ -3,11 +3,11 @@ import {
   Box, Typography, Card, CardContent,
   Stack, TableBody, TableRow, TableCell,
   Link, Table, TableHead, TableContainer,
-  DialogContent, Button, Chip, Grid2
+  DialogContent, Button, Chip
 } from "@mui/material";
 import {
   OpenInNew as OpenInNewIcon,
-  Reddit as RedditIcon,
+  BugReport as BugReportIcon,
   GitHub as GitHubIcon,
   RocketLaunch as RocketIcon,
   Forum as ForumIcon,
@@ -87,78 +87,84 @@ export const AboutModal = ({ isOpen, onClose }: AboutModalProps) => {
 
             {/* Links Section */}
             <Card variant="outlined" sx={{ borderRadius: 0, borderLeft: 0, borderRight: 0 }}>
-              <CardContent sx={{ textAlign: 'center', py: 3 }}>
-                <Typography variant="h6" gutterBottom>
+              <CardContent sx={{ textAlign: 'center', py: 1.5, '&:last-child': { pb: 1.5 } }}>
+                <Typography variant="subtitle2" gutterBottom>
                   Links & Support
                 </Typography>
 
-                <Grid2 container spacing={2} justifyContent="center">
-                  <Grid2>
-                    <Button
-                      variant="outlined"
-                      onClick={() => {
-                        onClose();
-                        setPrivacyOpen(true);
-                      }}
-                      startIcon={<PrivacyTipIcon />}
-                      sx={{ minWidth: 140 }}
-                    >
-                      Privacy Policy
-                    </Button>
-                  </Grid2>
-                  <Grid2>
-                    <Button
-                      variant="outlined"
-                      href="https://www.reddit.com/user/bjax15"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      startIcon={<RedditIcon />}
-                      endIcon={<OpenInNewIcon />}
-                      sx={{ minWidth: 140 }}
-                    >
-                      Reddit
-                    </Button>
-                  </Grid2>
-                  <Grid2>
-                    <Button
-                      variant="outlined"
-                      href="https://robertsspaceindustries.com/community-hub/user/bjax"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      startIcon={<ForumIcon />}
-                      endIcon={<OpenInNewIcon />}
-                      sx={{ minWidth: 140 }}
-                    >
-                      RSI
-                    </Button>
-                  </Grid2>
-                  <Grid2>
-                    <Button
-                      variant="outlined"
-                      href="https://www.robertsspaceindustries.com/enlist?referral=STAR-CB9X-6C5M"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      startIcon={<RocketIcon />}
-                      endIcon={<OpenInNewIcon />}
-                      sx={{ minWidth: 140 }}
-                    >
-                      Referral Code: STAR-CB9X-6C5M
-                    </Button>
-                  </Grid2>
-                  <Grid2>
-                    <Button
-                      variant="outlined"
-                      href="https://github.com/sccargospace/sc-cargo.space"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      startIcon={<GitHubIcon />}
-                      endIcon={<OpenInNewIcon />}
-                      sx={{ minWidth: 140 }}
-                    >
-                      GitHub
-                    </Button>
-                  </Grid2>
-                </Grid2>
+                <Stack
+                  component="nav"
+                  aria-label="Links and support"
+                  direction="row"
+                  spacing={1}
+                  useFlexGap
+                  sx={{
+                    flexWrap: 'wrap',
+                    justifyContent: 'center',
+                    color: 'text.secondary',
+                    '& .MuiButton-root': { minWidth: 0, minHeight: 44, px: 1 },
+                    '& .MuiButton-startIcon': { mr: 0.75 },
+                    '& .MuiSvgIcon-root': { fontSize: 18 },
+                  }}
+                >
+                  <Button
+                    variant="text"
+                    color="inherit"
+                    size="small"
+                    onClick={() => {
+                      onClose();
+                      setPrivacyOpen(true);
+                    }}
+                    startIcon={<PrivacyTipIcon />}
+                  >
+                    Privacy
+                  </Button>
+                  <Button
+                    variant="text"
+                    color="inherit"
+                    size="small"
+                    href="https://robertsspaceindustries.com/community-hub/user/bjax"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    startIcon={<ForumIcon />}
+                  >
+                    RSI
+                  </Button>
+                  <Button
+                    variant="text"
+                    color="inherit"
+                    size="small"
+                    href="https://www.robertsspaceindustries.com/enlist?referral=STAR-CB9X-6C5M"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    startIcon={<RocketIcon />}
+                    sx={{ maxWidth: '100%' }}
+                  >
+                    Referral: STAR-CB9X-6C5M
+                  </Button>
+                  <Button
+                    variant="text"
+                    color="inherit"
+                    size="small"
+                    href="https://github.com/sccargospace/sc-cargo.space"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    startIcon={<GitHubIcon />}
+                  >
+                    GitHub
+                  </Button>
+                  <Button
+                    variant="text"
+                    size="small"
+                    href="https://github.com/sccargospace/sc-cargo.space/issues"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    startIcon={<BugReportIcon />}
+                    sx={{ fontWeight: 600 }}
+                  >
+                    Report an issue
+                  </Button>
+                </Stack>
               </CardContent>
             </Card>
 
