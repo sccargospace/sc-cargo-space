@@ -12,6 +12,7 @@ import { IsMobile } from "@/lib/util";
 export const AppIcon = () => {
   const theme = useTheme();
   const navigate = useNavigate();
+  const isMobile = IsMobile();
 
   const handleClick = () => {
     navigate("/");
@@ -51,15 +52,16 @@ export const AppIcon = () => {
         />
         <Typography
           fontStyle="italic"
-          variant={IsMobile() ? "h6" : "h5"}
+          variant={isMobile ? "h6" : "h5"}
           component="div"
           sx={{
             position: "relative",
             color: theme.canvasColors.text,
             fontWeight: 600,
+            fontSize: isMobile ? "1rem" : undefined,
             zIndex: 1
           }}>
-          Cargo Grid Viewer
+          {isMobile ? "Cargo grids" : "Cargo Grid Viewer"}
         </Typography>
       </Box>
     </Box>

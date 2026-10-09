@@ -269,6 +269,7 @@ export const VehicleNode = (props: VehicleNodeProps) => {
                   size="small"
                   label={`${size} scu`}
                   variant="outlined"
+                  inputProps={{ inputMode: "numeric", pattern: "[0-9]*" }}
                   value={nodeValues[size]}
                   onChange={(e) => {
                     setNodeValues({
