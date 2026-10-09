@@ -161,9 +161,8 @@ export const VehicleNode = (props: VehicleNodeProps) => {
                 variant: props.selected.schema.name.length > 20 ? "body2" : "body1",
                 color: "text.primary", // Explicit color to ensure theme updates
                 sx: {
-                  overflow: "hidden",
-                  textOverflow: "ellipsis",
-                  whiteSpace: "nowrap"
+                  whiteSpace: "normal",
+                  overflowWrap: "anywhere"
                 }
               }}
               sx={{
