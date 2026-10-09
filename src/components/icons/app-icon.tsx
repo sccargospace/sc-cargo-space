@@ -1,3 +1,4 @@
+import { type MouseEvent } from "react";
 import {
   Box, Typography,
 } from "@mui/material";
@@ -14,8 +15,16 @@ export const AppIcon = () => {
   const navigate = useNavigate();
   const isMobile = IsMobile();
 
-  const handleClick = () => {
+  const handleClick = (event: MouseEvent<HTMLAnchorElement>) => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+      return;
+    }
+
+    event.preventDefault();
     navigate("/");
+    // An empty hash and "#/" both resolve to the root in HashRouter. Clean up
+    // its new history entry after navigation, preserving the router's state.
+    window.history.replaceState(window.history.state, "", "/");
   };
 
   return (
@@ -27,6 +36,9 @@ export const AppIcon = () => {
       }}
     >
       <Box
+        component="a"
+        href="/"
+        aria-label="Cargo Grid Viewer home"
         onClick={handleClick}
         sx={{
           display: "flex",

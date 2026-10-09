@@ -41,7 +41,8 @@ const PageNavigation = () => {
    * @returns True if the route is active
    */
   const isActiveRoute = (route: string) => {
-    return location.pathname.startsWith(route);
+    return location.pathname.startsWith(route)
+      || (route === '/v1/viewer' && location.pathname === '/');
   };
 
   /**
@@ -69,6 +70,7 @@ const PageNavigation = () => {
     >
       <Button
         variant={isActiveRoute('/v1/viewer') ? 'contained' : 'text'}
+        aria-current={isActiveRoute('/v1/viewer') ? 'page' : undefined}
         size="small"
         startIcon={<ViewerIcon />}
         onClick={() => handleNavigation('/v1/viewer')}
@@ -82,6 +84,7 @@ const PageNavigation = () => {
 
       <Button
         variant={isActiveRoute('/v1/finder') ? 'contained' : 'text'}
+        aria-current={isActiveRoute('/v1/finder') ? 'page' : undefined}
         size="small"
         startIcon={<FinderIcon />}
         onClick={() => handleNavigation('/v1/finder')}
@@ -111,7 +114,8 @@ const MobilePageNavigation = () => {
    * @returns True if the route is active
    */
   const isActiveRoute = (route: string) => {
-    return location.pathname.startsWith(route);
+    return location.pathname.startsWith(route)
+      || (route === '/v1/viewer' && location.pathname === '/');
   };
 
   /**
@@ -167,6 +171,7 @@ const MobilePageNavigation = () => {
         <MenuItem
           onClick={() => handleNavigation('/v1/viewer')}
           selected={isActiveRoute('/v1/viewer')}
+          aria-current={isActiveRoute('/v1/viewer') ? 'page' : undefined}
         >
           <ViewerIcon sx={{ mr: 1 }} />
           Viewer
@@ -174,6 +179,7 @@ const MobilePageNavigation = () => {
         <MenuItem
           onClick={() => handleNavigation('/v1/finder')}
           selected={isActiveRoute('/v1/finder')}
+          aria-current={isActiveRoute('/v1/finder') ? 'page' : undefined}
         >
           <FinderIcon sx={{ mr: 1 }} />
           Finder

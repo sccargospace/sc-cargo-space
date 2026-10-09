@@ -24,9 +24,6 @@ const LegacyRedirect = () => {
       // This is a legacy URL format, redirect to new format
       const newPath = `/v1/viewer/${hash}`;
       navigate(newPath, { replace: true });
-    } else if (!hash || hash === "/") {
-      // Empty hash or just "/", redirect to empty viewer
-      navigate("/v1/viewer", { replace: true });
     }
   }, [navigate, location]);
 
@@ -50,8 +47,8 @@ export const AppRouter = ({ sx }: AppRouterProps) => {
       sx={sx}
     >
       <Routes>
-        {/* Legacy redirect for old hash-based URLs */}
-        <Route path="/" element={<LegacyRedirect />} />
+        {/* Render the default viewer without changing the landing URL. */}
+        <Route path="/" element={<ViewerRoute />} />
 
         {/* New versioned routes */}
         <Route path="/v1/viewer" element={<ViewerRoute />} />
