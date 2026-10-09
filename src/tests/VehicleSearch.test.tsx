@@ -13,11 +13,40 @@ afterEach(cleanup);
 
 const constellations = VehicleSchemas.filter(vehicle => vehicle.name.startsWith("Constellation "));
 
+describe.each([
+  ["Andromeda", "IV"],
+  ["Aquila", "IV"],
+  ["Taurus", "IV"],
+  ["Phoenix", "IV"],
+  ["Centaurus", "V"],
+])("Constellation %s naming", (variant, mark) => {
+  const name = `Constellation Mk ${mark} ${variant}`;
+  const oldName = `Constellation ${variant} (Mk ${mark})`;
+  const originalName = `Constellation ${variant}`;
+
+  it("uses the stylized name in the picker data and grid title", () => {
+    const ship = VehicleSchemas.find(vehicle => vehicle.name === name);
+    expect(ship).toBeDefined();
+    expect(ship?.official.labels?.[0].value).toBe(name);
+  });
+
+  it("preserves both previous names as compatibility aliases", () => {
+    const ship = VehicleSchemas.find(vehicle => vehicle.name === name);
+    expect(ship?.alternativeNames).toEqual(expect.arrayContaining([oldName, originalName]));
+  });
+
+  it("finds the same ship through the current and parenthesized names", () => {
+    for (const query of [name, oldName]) {
+      expect(FilterVehicles(VehicleSchemas, query).map(vehicle => vehicle.name)).toEqual([name]);
+    }
+  });
+});
+
 describe("Vehicle search", () => {
   it.each(["Connie", "connie", "CONNIE", "  CoNnIe  "])(
     "finds all Constellation variants with %s",
     query => {
-      expect(constellations).toHaveLength(4);
+      expect(constellations).toHaveLength(5);
       expect(FilterVehicles(VehicleSchemas, query)).toEqual(constellations);
     }
   );
@@ -33,7 +62,7 @@ describe("Vehicle search", () => {
   });
 
   it("combines manufacturer, nickname, and ship name in any order", () => {
-    const taurus = constellations.filter(vehicle => vehicle.name.includes("Taurus"));
+    const taurus = constellations.filter(vehicle => vehicle.name.toLowerCase().includes("taurus"));
     expect(FilterVehicles(VehicleSchemas, "rsi connie taurus")).toEqual(taurus);
     expect(FilterVehicles(VehicleSchemas, "Taurus   Connie RSI")).toEqual(taurus);
     expect(FilterVehicles(VehicleSchemas, "drake connie")).toEqual([]);
@@ -93,6 +122,6 @@ describe("Vehicle picker aliases", () => {
     const option = screen.getByRole("option", { name: selected.schema.name });
     expect(option).toHaveAttribute("aria-disabled", "true");
     expect(onVehiclePicked).not.toHaveBeenCalled();
-    expect(screen.getAllByRole("option")).toHaveLength(4);
+    expect(screen.getAllByRole("option")).toHaveLength(5);
   });
 });

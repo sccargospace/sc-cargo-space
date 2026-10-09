@@ -1,7 +1,8 @@
 {
   "manufacturer": "RSI",
-  "name": "Constellation Centaurus (Mk V)",
+  "name": "Constellation Mk V Centaurus",
   "alternativeNames": [
+    "Constellation Centaurus (Mk V)",
     "Constellation Centaurus"
   ],
   "searchAliases": [
@@ -27,7 +28,7 @@
     ],
     "labels": [
       {
-        "value": "Constellation Centaurus (Mk V)",
+        "value": "Constellation Mk V Centaurus",
         "x": 30,
         "z": -20,
         "fontSize": 5

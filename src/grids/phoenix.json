@@ -1,11 +1,13 @@
 {
   "manufacturer": "RSI",
-  "name": "Constellation Phoenix (Mk IV)",
+  "name": "Constellation Mk IV Phoenix",
   "alternativeNames": [
+    "Constellation Phoenix (Mk IV)",
     "Constellation Phoenix"
   ],
   "searchAliases": [
-    "Connie"
+    "Connie",
+    "Phoenix"
   ],
   "official": {
     "capacity": 80,
@@ -27,7 +29,7 @@
     ],
     "labels": [
       {
-        "value": "Constellation Phoenix (Mk IV)",
+        "value": "Constellation Mk IV Phoenix",
         "x": 25,
         "z": -20,
         "fontSize": 5

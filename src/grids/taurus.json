@@ -1,7 +1,8 @@
 {
   "manufacturer": "RSI",
-  "name": "Constellation Taurus (Mk IV)",
+  "name": "Constellation Mk IV Taurus",
   "alternativeNames": [
+    "Constellation Taurus (Mk IV)",
     "Constellation Taurus"
   ],
   "searchAliases": [
@@ -42,7 +43,7 @@
     ],
     "labels": [
       {
-        "value": "Constellation Taurus (Mk IV)",
+        "value": "Constellation Mk IV Taurus",
         "x": 20,
         "z": -20,
         "fontSize": 5

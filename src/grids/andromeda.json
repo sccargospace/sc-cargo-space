@@ -1,7 +1,8 @@
 {
   "manufacturer": "RSI",
-  "name": "Constellation Andromeda (Mk IV)",
+  "name": "Constellation Mk IV Andromeda",
   "alternativeNames": [
+    "Constellation Andromeda (Mk IV)",
     "Constellation Andromeda"
   ],
   "searchAliases": [
@@ -27,7 +28,7 @@
     ],
     "labels": [
       {
-        "value": "Constellation Andromeda (Mk IV)",
+        "value": "Constellation Mk IV Andromeda",
         "x": 20,
         "z": -20,
         "fontSize": 5

@@ -1,7 +1,8 @@
 {
   "manufacturer": "RSI",
-  "name": "Constellation Aquila (Mk IV)",
+  "name": "Constellation Mk IV Aquila",
   "alternativeNames": [
+    "Constellation Aquila (Mk IV)",
     "Constellation Aquila"
   ],
   "searchAliases": [
@@ -27,7 +28,7 @@
     ],
     "labels": [
       {
-        "value": "Constellation Aquila (Mk IV)",
+        "value": "Constellation Mk IV Aquila",
         "x": 20,
         "z": -20,
         "fontSize": 5
