@@ -1,6 +1,9 @@
 {
   "manufacturer": "Banu",
   "name": "Merchantman [Concept]",
+  "searchAliases": [
+    "BMM"
+  ],
   "official": {
     "capacity": 2880,
     "groups": [

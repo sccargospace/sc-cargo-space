@@ -1,6 +1,9 @@
 {
   "manufacturer": "Aegis",
   "name": "Retaliator",
+  "searchAliases": [
+    "Tali"
+  ],
   "official": {
     "capacity": 74,
     "groups": [

@@ -1,6 +1,9 @@
 {
   "manufacturer": "Crusader",
   "name": "Mercury Star Runner",
+  "searchAliases": [
+    "MSR"
+  ],
   "official": {
     "capacity": 114,
     "groups": [

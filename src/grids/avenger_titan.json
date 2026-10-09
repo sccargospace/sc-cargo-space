@@ -1,6 +1,9 @@
 {
   "manufacturer": "Aegis",
   "name": "Avenger Titan",
+  "searchAliases": [
+    "Titan"
+  ],
   "official": {
     "capacity": 8,
     "groups": [
