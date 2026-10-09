@@ -1,6 +1,9 @@
 {
   "manufacturer": "RSI",
-  "name": "Constellation Taurus",
+  "name": "Constellation Taurus (Mk IV)",
+  "alternativeNames": [
+    "Constellation Taurus"
+  ],
   "official": {
     "capacity": 174,
     "groups": [
@@ -36,7 +39,7 @@
     ],
     "labels": [
       {
-        "value": "Constellation Taurus",
+        "value": "Constellation Taurus  (Mk IV)",
         "x": 20,
         "z": -20,
         "fontSize": 5

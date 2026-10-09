@@ -1,6 +1,9 @@
 {
   "manufacturer": "RSI",
-  "name": "Constellation Andromeda",
+  "name": "Constellation Andromeda (Mk IV)",
+  "alternativeNames": [
+    "Constellation Andromeda"
+  ],
   "official": {
     "capacity": 96,
     "groups": [
@@ -21,7 +24,7 @@
     ],
     "labels": [
       {
-        "value": "Constellation Andromeda",
+        "value": "Constellation Andromeda  (Mk IV)",
         "x": 20,
         "z": -20,
         "fontSize": 5

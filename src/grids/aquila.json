@@ -1,6 +1,9 @@
 {
   "manufacturer": "RSI",
-  "name": "Constellation Aquila",
+  "name": "Constellation Aquila (Mk IV)",
+  "alternativeNames": [
+    "Constellation Aquila"
+  ],
   "official": {
     "capacity": 96,
     "groups": [
@@ -21,7 +24,7 @@
     ],
     "labels": [
       {
-        "value": "Constellation Aquila",
+        "value": "Constellation Aquila  (Mk IV)",
         "x": 20,
         "z": -20,
         "fontSize": 5

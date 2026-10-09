@@ -1,6 +1,9 @@
 {
   "manufacturer": "RSI",
-  "name": "Constellation Phoenix",
+  "name": "Constellation Phoenix (Mk IV)",
+  "alternativeNames": [
+    "Constellation Phoenix"
+  ],
   "official": {
     "capacity": 80,
     "groups": [
@@ -21,7 +24,7 @@
     ],
     "labels": [
       {
-        "value": "Constellation Phoenix",
+        "value": "Constellation Phoenix  (Mk IV)",
         "x": 25,
         "z": -20,
         "fontSize": 5
