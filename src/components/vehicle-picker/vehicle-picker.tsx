@@ -10,6 +10,7 @@ import {
 } from "@/lib/vehicle-schema";
 import { ManufacturerIcon } from "@/components/icons/manufacturer-icon";
 import { SelectedVehicleProps } from "@/lib/selected-vehicle";
+import { FilterVehicles } from "@/lib/vehicle-search";
 
 /**
  * Properties for the VehiclePicker component.
@@ -41,6 +42,7 @@ export const VehiclePicker = (props: VehiclePickerProps) => {
           setInputValue(newInputValue);
         }}
         options={VehicleSchemas}
+        filterOptions={(options, { inputValue }) => FilterVehicles(options, inputValue)}
         groupBy={(option) => option.manufacturer}
         getOptionLabel={(option) => option.name}
         getOptionDisabled={(option) => isVehicleSelected(option)}

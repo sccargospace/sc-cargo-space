@@ -1,6 +1,9 @@
 {
   "manufacturer": "Drake",
   "name": "Cutlass Black",
+  "searchAliases": [
+    "Cutty"
+  ],
   "official": {
     "capacity": 46,
     "groups": [

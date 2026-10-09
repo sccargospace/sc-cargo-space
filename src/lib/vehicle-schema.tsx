@@ -12,8 +12,10 @@ export interface VehicleSchemaProps {
   unofficial?: VehicleSchemaLayout;
   /** Labels that are displayed with either layout. */
   labels?: VehicleSchemaLabel[];
-  /** Optional fields */
+  /** Previous or alternative names accepted in saved URLs and search. */
   alternativeNames?: string[];
+  /** Search-only aliases; these may be shared by multiple vehicles. */
+  searchAliases?: string[];
 }
 
 /**

@@ -124,7 +124,8 @@ Each file in this repo is one vehicle definition.
 - official (required, [Layout](#layout)): Official cargo layout object.
 - unofficial (optional, [Layout](#layout)): Alternate layout object that can include grids with containers that are "unsecured" or "off-grid".
 - labels (optional, [Label](#label)[]): Labels shown for both official and unofficial views.
-- alternativeNames (optional, string[]): Alias names for url parameters.
+- alternativeNames (optional, string[]): Alias names for URL parameters and search. These should identify a single ship.
+- searchAliases (optional, string[]): Search-only nicknames, such as `["Connie"]`. These may be shared by multiple ships and do not change saved URLs. Manufacturer search aliases are maintained in `src/lib/vehicle-search.ts`.
 
 ### Layout
 
