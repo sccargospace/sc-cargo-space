@@ -1,6 +1,6 @@
 
 import { useEffect } from "react";
-import { Routes, Route, useNavigate, useLocation } from "react-router-dom";
+import { Routes, Route, Navigate, useNavigate, useLocation } from "react-router-dom";
 import { Box, SxProps } from "@mui/material";
 
 import { ViewerRoute } from "./routes/viewer";
@@ -9,7 +9,7 @@ import { Canvas } from "@/components/canvas/canvas";
 
 /**
  * Component that handles redirecting from legacy hash-based URLs to the new routing structure.
- * Converts URLs like /#reclaimer-official to /#/v1/viewer/reclaimer-official
+ * Converts URLs like /#reclaimer-official to /#/viewer/reclaimer-official
  */
 const LegacyRedirect = () => {
   const navigate = useNavigate();
@@ -22,13 +22,28 @@ const LegacyRedirect = () => {
     // Check if this looks like a legacy vehicle URL (not starting with /)
     if (hash && !hash.startsWith("/")) {
       // This is a legacy URL format, redirect to new format
-      const newPath = `/v1/viewer/${hash}`;
+      const newPath = `/viewer/${hash}`;
       navigate(newPath, { replace: true });
     }
   }, [navigate, location]);
 
   // Show nothing while redirecting
   return null;
+};
+
+/** Keep shared v1 links working, including their loadouts and Finder filters. */
+const VersionedRedirect = () => {
+  const location = useLocation();
+  return (
+    <Navigate
+      to={{
+        pathname: location.pathname.slice("/v1".length),
+        search: location.search,
+        hash: location.hash,
+      }}
+      replace
+    />
+  );
 };
 
 /**
@@ -50,10 +65,14 @@ export const AppRouter = ({ sx }: AppRouterProps) => {
         {/* Render the default viewer without changing the landing URL. */}
         <Route path="/" element={<ViewerRoute />} />
 
-        {/* New versioned routes */}
-        <Route path="/v1/viewer" element={<ViewerRoute />} />
-        <Route path="/v1/viewer/:vehicles" element={<ViewerRoute />} />
-        <Route path="/v1/finder" element={<FinderRoute />} />
+        <Route path="/viewer" element={<ViewerRoute />} />
+        <Route path="/viewer/:vehicles" element={<ViewerRoute />} />
+        <Route path="/finder" element={<FinderRoute />} />
+
+        {/* Preserve previously shared versioned URLs. */}
+        <Route path="/v1/viewer" element={<VersionedRedirect />} />
+        <Route path="/v1/viewer/:vehicles" element={<VersionedRedirect />} />
+        <Route path="/v1/finder" element={<VersionedRedirect />} />
 
         {/* Fallback redirect */}
         <Route path="*" element={<LegacyRedirect />} />

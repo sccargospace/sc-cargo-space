@@ -110,7 +110,7 @@ export const ViewerRoute = () => {
       setVehicles(cachedVehicles);
     } else if (vehicles && vehicles.trim() !== "") {
       // If vehicles were specified but none loaded, navigate to empty viewer
-      navigate("/v1/viewer", { replace: true });
+      navigate("/viewer", { replace: true });
     } else {
       // Clear vehicles if no vehicles in URL
       setViewerState({

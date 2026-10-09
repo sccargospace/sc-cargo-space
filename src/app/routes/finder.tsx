@@ -123,7 +123,7 @@ export const FinderRoute = () => {
       }
     });
 
-    return `/v1/viewer/${vehicleName}-${layoutType}${containerSpecs}`;
+    return `/viewer/${vehicleName}-${layoutType}${containerSpecs}`;
   };
 
   // Update URL when inputs change

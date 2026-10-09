@@ -15,7 +15,14 @@ vi.mock("react-responsive", () => ({ useMediaQuery: vi.fn(() => false) }));
 
 const CanvasState = () => {
   const { state } = useCanvas();
-  return <output aria-label="Canvas vehicle count">{state.vehicles.length}</output>;
+  return (
+    <>
+      <output aria-label="Canvas vehicle count">{state.vehicles.length}</output>
+      <output aria-label="Canvas cargo summary">
+        {state.vehicles.map(vehicle => `${vehicle.name}: ${vehicle.size} SCU`).join(", ")}
+      </output>
+    </>
+  );
 };
 
 const renderApp = (url = "/") => {
@@ -39,7 +46,7 @@ afterEach(() => {
 });
 
 describe("Viewer routing", () => {
-  it.each(["/", "/?source=bookmark", "/#/", "/#/v1/viewer"])(
+  it.each(["/", "/?source=bookmark", "/#/", "/#/viewer"])(
     "renders an empty viewer at %s without changing the URL",
     (url) => {
       renderApp(url);
@@ -53,7 +60,7 @@ describe("Viewer routing", () => {
     }
   );
 
-  it("writes a versioned URL when adding a ship, restores it on reload, and clears it on removal", async () => {
+  it("writes an unversioned URL when adding a ship, restores it on reload, and clears it on removal", async () => {
     const user = userEvent.setup();
     const app = renderApp();
 
@@ -62,7 +69,7 @@ describe("Viewer routing", () => {
     expect(window.location.hash).toBe("");
     await user.click(await screen.findByRole("option", { name: "Cutter" }));
 
-    expect(window.location.hash).toBe("#/v1/viewer/cutter-official");
+    expect(window.location.hash).toBe("#/viewer/cutter-official");
     expect(screen.getByLabelText("Canvas vehicle count")).toHaveTextContent(/^1$/);
     expect(screen.getByRole("button", { name: "delete" })).toBeInTheDocument();
 
@@ -73,12 +80,12 @@ describe("Viewer routing", () => {
     expect(window.location.href).toBe(savedUrl);
 
     await user.click(screen.getByRole("button", { name: "delete" }));
-    expect(window.location.hash).toBe("#/v1/viewer");
+    expect(window.location.hash).toBe("#/viewer");
     expect(screen.getByLabelText("Canvas vehicle count")).toHaveTextContent(/^0$/);
     expect(screen.queryByRole("button", { name: "delete" })).not.toBeInTheDocument();
   });
 
-  it.each(["/#/v1/viewer/reclaimer-official-q1", "/#reclaimer-official-q1"])(
+  it.each(["/#/viewer/reclaimer-official-q1", "/#/v1/viewer/reclaimer-official-q1", "/#reclaimer-official-q1"])(
     "loads ships from the existing link %s",
     async (url) => {
       renderApp(url);
@@ -87,22 +94,74 @@ describe("Viewer routing", () => {
         expect(screen.getByLabelText("Canvas vehicle count")).toHaveTextContent(/^1$/);
       });
       expect(screen.getByText("Reclaimer")).toBeInTheDocument();
-      expect(window.location.hash).toBe("#/v1/viewer/reclaimer-official-q1");
+      expect(window.location.hash).toBe("#/viewer/reclaimer-official-q1");
     }
   );
+
+  it("redirects the old empty viewer link without adding a history entry", async () => {
+    const historyLength = window.history.length;
+    renderApp("/#/v1/viewer");
+
+    await waitFor(() => expect(window.location.hash).toBe("#/viewer"));
+    expect(screen.getByRole("combobox", { name: "Add Vehicle" })).toBeInTheDocument();
+    expect(screen.getByLabelText("Canvas vehicle count")).toHaveTextContent(/^0$/);
+    expect(window.history.length).toBe(historyLength);
+  });
+
+  it.each(["/#/v1/viewer/", "/#"])(
+    "preserves multiple ships, layouts, and custom loads from %s",
+    async (prefix) => {
+      const loadout = "reclaimer-official-q1-w2,cutter-unofficial-q2";
+      const historyLength = window.history.length;
+      renderApp(`${prefix}${loadout}`);
+
+      await waitFor(() => {
+        expect(screen.getByLabelText("Canvas vehicle count")).toHaveTextContent(/^2$/);
+      });
+      expect(window.location.hash).toBe(`#/viewer/${loadout}`);
+      expect(screen.getByLabelText("Canvas cargo summary")).toHaveTextContent("Reclaimer: 5 SCU, Cutter: 2 SCU");
+      expect(screen.getByRole("button", { name: "Unofficial" })).toHaveAttribute("aria-pressed", "true");
+      expect(window.history.length).toBe(historyLength);
+    }
+  );
+
+  it("redirects the old Finder route to the unversioned page", async () => {
+    renderApp("/#/v1/finder");
+
+    await waitFor(() => expect(window.location.hash).toBe("#/finder"));
+    expect(screen.getByRole("button", { name: "Finder" })).toHaveAttribute("aria-current", "page");
+    expect(screen.getByRole("spinbutton", { name: "1 SCU" })).toHaveValue(0);
+  });
+
+  it("preserves Finder search inputs and generates unversioned result links", async () => {
+    const user = userEvent.setup();
+    const historyLength = window.history.length;
+    renderApp("/#/v1/finder?c1=1&c2=1");
+
+    await waitFor(() => expect(window.location.hash).toBe("#/finder?c1=1&c2=1"));
+    expect(screen.getByRole("spinbutton", { name: "1 SCU" })).toHaveValue(1);
+    expect(screen.getByRole("spinbutton", { name: "2 SCU" })).toHaveValue(1);
+    expect(window.history.length).toBe(historyLength);
+
+    const result = screen.getByRole("link", { name: "Cutter" });
+    expect(result).toHaveAttribute("href", "#/viewer/cutter-official-q1-w1");
+    await user.click(result);
+    expect(window.location.hash).toBe("#/viewer/cutter-official-q1-w1");
+    expect(screen.getByLabelText("Canvas cargo summary")).toHaveTextContent("Cutter: 3 SCU");
+  });
 
   it("keeps Finder navigation working from the clean landing URL", async () => {
     const user = userEvent.setup();
     renderApp();
 
     await user.click(screen.getByRole("button", { name: "Finder" }));
-    expect(window.location.hash).toBe("#/v1/finder");
+    expect(window.location.hash).toBe("#/finder");
     expect(screen.getByRole("button", { name: "Finder" })).toHaveAttribute("aria-current", "page");
     expect(screen.getByRole("button", { name: "Viewer" })).not.toHaveAttribute("aria-current");
     expect(screen.queryByRole("combobox", { name: "Add Vehicle" })).not.toBeInTheDocument();
 
     await user.click(screen.getByRole("button", { name: "Viewer" }));
-    expect(window.location.hash).toBe("#/v1/viewer");
+    expect(window.location.hash).toBe("#/viewer");
     expect(screen.getByRole("combobox", { name: "Add Vehicle" })).toBeInTheDocument();
     expect(screen.getByLabelText("Canvas vehicle count")).toHaveTextContent(/^0$/);
   });
@@ -119,7 +178,7 @@ describe("Viewer routing", () => {
     expect(screen.getByLabelText("Canvas vehicle count")).toHaveTextContent(/^0$/);
   });
 
-  it.each(["/#/v1/viewer/cutter-official", "/#/v1/viewer", "/#/v1/finder", "/#/"])(
+  it.each(["/#/viewer/cutter-official", "/#/viewer", "/#/finder", "/#/"])(
     "returns Home from %s with a clean URL and an empty viewer",
     async (url) => {
       const user = userEvent.setup();
@@ -139,12 +198,12 @@ describe("Viewer routing", () => {
 
   it("preserves Back and Forward navigation after returning Home", async () => {
     const user = userEvent.setup();
-    renderApp("/#/v1/viewer/cutter-official");
+    renderApp("/#/viewer/cutter-official");
     await user.click(screen.getByRole("link", { name: "Cargo Grid Viewer home" }));
 
     await act(async () => window.history.back());
     await waitFor(() => {
-      expect(window.location.hash).toBe("#/v1/viewer/cutter-official");
+      expect(window.location.hash).toBe("#/viewer/cutter-official");
       expect(screen.getByLabelText("Canvas vehicle count")).toHaveTextContent(/^1$/);
     });
 
@@ -156,14 +215,14 @@ describe("Viewer routing", () => {
 
     await user.type(screen.getByRole("combobox", { name: "Add Vehicle" }), "Cutter");
     await user.click(await screen.findByRole("option", { name: "Cutter" }));
-    expect(window.location.hash).toBe("#/v1/viewer/cutter-official");
+    expect(window.location.hash).toBe("#/viewer/cutter-official");
     expect(screen.getByLabelText("Canvas vehicle count")).toHaveTextContent(/^1$/);
   });
 
   it("allows keyboard activation of Home on mobile", async () => {
     vi.mocked(useMediaQuery).mockReturnValue(true);
     const user = userEvent.setup();
-    renderApp("/#/v1/viewer/cutter-official");
+    renderApp("/#/viewer/cutter-official");
 
     screen.getByRole("link", { name: "Cargo Grid Viewer home" }).focus();
     await user.keyboard("{Enter}");

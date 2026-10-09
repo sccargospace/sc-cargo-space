@@ -50,11 +50,11 @@ const VehicleUrlSegment = (vehicle: SelectedVehicleProps) => {
  */
 const VehiclesUrlPath = (vehicles: SelectedVehicleProps[]) => {
   if (vehicles.length === 0) {
-    return "/v1/viewer";
+    return "/viewer";
   }
 
   const segments = vehicles.map(vehicle => VehicleUrlSegment(vehicle));
-  return `/v1/viewer/${segments.join(",")}`;
+  return `/viewer/${segments.join(",")}`;
 }
 
 /**
